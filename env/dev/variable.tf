@@ -1,0 +1,8 @@
+variable "modulekavariable" {
+  
+}
+
+variable "vnetmodulekavariable" {
+  
+}
+

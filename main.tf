@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Cheeku the Clever Rabbit
 In the jungle of Junglepur, there lived a smart little rabbit named Cheeku. He was always curious and loved trying new things.
 
@@ -22,3 +23,18 @@ The Lion was impressed and said,
 Cheeku won the prize, and all the animals joined hands to build the pond.
 
 Moral: The most valuable things are not always objects — sometimes, a good idea and a kind heart are the most special of all.
+=======
+module "rg" {
+  source = "../../rg"
+  rgkavariable = var.modulekavariable
+  
+}
+
+################################vnet and subnet################################
+
+module "vnet" {
+  source = "../../vnet"
+  vnetkavariable = var.vnetmodulekavariable
+  depends_on = [ module.rg ]
+}
+>>>>>>> ed8927a0d405b98a4401b1225f55b1f5879de4c7
