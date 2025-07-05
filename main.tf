@@ -5,10 +5,10 @@ resource "azurerm_resource_group" "example" {
 
 resource "azurerm_resource_group" "example1" {
   name     = "example1"
-  location = "West Europe"
+  location = "Central India"
 }
 
 resource "azurerm_resource_group" "example2" {
   name     = "example2"
-  location = "West Europe"
+  location = "Central India"
 }
