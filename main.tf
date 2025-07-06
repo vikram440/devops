@@ -18,7 +18,14 @@ resource "azurerm_resource_group" "example2" {
   location = "Central India"
 }
 
+<<<<<<< feature/branch2
+resource "azurerm_resource_group" "example23" {
+  name     = "example23"
+  location = "Central India"
+}
+=======
 resource "azurerm_resource_group" "example22" {
   name     = "example22"
   location = "Central India"
 }
+>>>>>>> main
