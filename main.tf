@@ -17,3 +17,8 @@ resource "azurerm_resource_group" "example2" {
   name     = "example2"
   location = "Central India"
 }
+
+resource "azurerm_resource_group" "example22" {
+  name     = "example22"
+  location = "Central India"
+}
