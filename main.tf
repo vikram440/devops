@@ -22,8 +22,3 @@ resource "azurerm_resource_group" "example23" {
   name     = "example23"
   location = "Central India"
 }
-
-resource "azurerm_resource_group" "example24" {
-  name     = "example24"
-  location = "Central India"
-}
